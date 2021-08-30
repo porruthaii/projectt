@@ -1,0 +1,19 @@
+@prefix data:    <http://example.org/data/> .
+@prefix ns:      <http://example.org/ns#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+[]    rdf:Object1  "2" ;
+      rdf:predicate  ns:p ;
+      rdf:subject  data:x .
+
+[]    rdf:Object1  "1";
+      rdf:predicate  ns:p ;
+      rdf:subject  data:x .
+
+#Not complete
+[]    rdf:Object1  data:x ;
+      rdf:subject  data:y .
+
+# Something different
+data:x  ns:p  data:z .
+

@@ -1,0 +1,38 @@
+@import 'https://fonts.googleapis.com/css?family=Kanit|Prompt';
+
+body {
+    margin-top: 100px;
+    padding: 30px;
+    font-family: 'Kanit', sans-serif;
+}
+
+p {
+    font-size: 16px;
+}
+
+table,
+th,
+td {
+
+    text-align: center;
+    padding: 15px;
+}
+
+.form-control {
+    width: 100%;
+}
+
+.checkbox {
+    padding: 0;
+}
+
+.container {
+    width: 700px;
+}
+
+h3 {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #ff0000;
+    text-align: center;
+}

@@ -1,0 +1,4818 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/porruthai/ontologies/2564/4/untitled-ontology-36#"
+     xml:base="http://www.semanticweb.org/porruthai/ontologies/2564/4/untitled-ontology-36"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="urn:absolute:thaifoodd">
+        <owl:imports rdf:resource="http://www.semanticweb.org/porruthai/thaifood"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- urn:absolute:thaifoodd#ComposeOf -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:thaifoodd#ComposeOf">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute:thaifoodd#IsRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute:thaifoodd#DynonymOf -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:thaifoodd#DynonymOf">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute:thaifoodd#IsRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute:thaifoodd#IngredietsFood -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:thaifoodd#IngredietsFood">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute:thaifoodd#IsObject"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute:thaifoodd#IsIn -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:thaifoodd#IsIn">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute:thaifoodd#IsRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute:thaifoodd#IsObject -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:thaifoodd#IsObject"/>
+    
+
+
+    <!-- urn:absolute:thaifoodd#IsRelation -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:thaifoodd#IsRelation"/>
+    
+
+
+    <!-- urn:absolute:thaifoodd#LocalFood -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:thaifoodd#LocalFood">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute:thaifoodd#IsObject"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute:thaifoodd#NameFood -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:thaifoodd#NameFood">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute:thaifoodd#IsObject"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute:thaifoodd#RelatedOf -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:thaifoodd#RelatedOf">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute:thaifoodd#IsRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute:thaifoodd#TypeFood -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:thaifoodd#TypeFood">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute:thaifoodd#IsObject"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">อาหารไทย อาหารภาคกลาง ขนมภาคกลาง ของหวาน ของหวานภาคกลาง</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคเหนือ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคเหนือ">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ขนมไทย อาหารไทย อาหารเหนือ ขนมเหนือ ขนมภาคเหนือ</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคใต้ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคใต้">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ขนมไทย อาหารไทย อาหารใต้ ขนมใต้ ขนมภาคใต้</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/porruthai/thaifood#ต้มภาคกลาง -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/porruthai/thaifood#ต้มภาคกลาง">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">อาหารไทย อาหารภาคกลาง</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/porruthai/thaifood#ต้มภาคเหนือ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/porruthai/thaifood#ต้มภาคเหนือ">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">อาหารไทย อาหารเหนือ อาหารภาคเหนือ ต้มเหนือ แกงเหนือ แกงภาคเหนือ</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/porruthai/thaifood#ต้มภาคใต้ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/porruthai/thaifood#ต้มภาคใต้">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">อาหารไทย อาหารใต้</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/porruthai/thaifood#ทอดภาคใต้ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/porruthai/thaifood#ทอดภาคใต้">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">อาหารไทย อาหารใต้ ทอดใต้ ของทอด</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/porruthai/thaifood#นึ่งภาคกลาง -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/porruthai/thaifood#นึ่งภาคกลาง">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">อาหารไทย อาหารภาคกลาง อาหารนึ่ง อบ อาหารอบ</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/porruthai/thaifood#นึ่งภาคเหนือ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/porruthai/thaifood#นึ่งภาคเหนือ">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">อาหารไทย อาหารเหนือ อาหารภาคเหนือ นึ่งเหนือ อบเหนือ แอ็บเหนือ นึ่งภาคเหนือ อบภาคเหนือ แอ็บภาคเหนือ</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/porruthai/thaifood#นึ่งภาคใต้ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/porruthai/thaifood#นึ่งภาคใต้">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">อาหารไทย อาหารใต้ อาหารภาคใต้ นึ่งใต้ อบใต้ อบภาคใต้</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/porruthai/thaifood#น้ำพริกภาคกลาง -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/porruthai/thaifood#น้ำพริกภาคกลาง">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">อาหารไทย อาหารภาคกลาง</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/porruthai/thaifood#น้ำพริกภาคเหนือ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/porruthai/thaifood#น้ำพริกภาคเหนือ">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">อาหารไทย อาหารเหนือ อาหารภาคเหนือ น้ำพริกเหนือ</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/porruthai/thaifood#น้ำพริกภาคใต้ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/porruthai/thaifood#น้ำพริกภาคใต้">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">อาหารไทย อาหารใต้ พริกใต้ น้ำพริกใต้</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">อาหารไทย อาหารภาคกลาง คั่วภาคกลาง</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/porruthai/thaifood#ผัดภาคเหนือ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคเหนือ">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">อาหารไทย อาหารเหนือ อาหารภาคเหนือ ผัดเหนือ คั่วภาคเหนือ คั่วเหนือ</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/porruthai/thaifood#ผัดภาคใต้ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคใต้">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">อาหารไทย อาหารใต้ ผัดใต้ คั่ว คั่วใต้</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/porruthai/thaifood#ยำภาคกลาง -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/porruthai/thaifood#ยำภาคกลาง">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">อาหารไทย อาหารภาคกลาง ตำ ตำภาคกลาง</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/porruthai/thaifood#ยำภาคเหนือ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/porruthai/thaifood#ยำภาคเหนือ">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">อาหารไทย อาหารเหนือ อาหารภาคเหนือ ยำเหนือ ตำ ตำเหนือ ตำภาคเหนือ</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/porruthai/thaifood#ยำภาคใต้ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/porruthai/thaifood#ยำภาคใต้">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ยำใต้ อาหารใต้ อาหารไทย ตำใต้</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/porruthai/thaifood#ย่างภาคกลาง -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/porruthai/thaifood#ย่างภาคกลาง">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">อาหารไทย อาหารภาคกลาง ของย่าง ปิ้ง ปิ้งภาคกลาง</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/porruthai/thaifood#ย่างภาคเหนือ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/porruthai/thaifood#ย่างภาคเหนือ">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">อาหารไทย อาหารเหนือ อาหารภาคเหนือ ยำเหนือ ตำ ตำเหนือ ตำภาคเหนือ</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">อาหารไทย อาหารเหนือ อาหารภาคเหนือ ย่างเหนือ ปิ้งภาคเหนือ ปิ้งเหนือ</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/porruthai/thaifood#เส้นภาคกลาง -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/porruthai/thaifood#เส้นภาคกลาง">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">อาหารไทย อาหารภาคกลาง ก๋วยเตี๋ยว ขนมจีน</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/porruthai/thaifood#เส้นภาคเหนือ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/porruthai/thaifood#เส้นภาคเหนือ">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">อาหารไทย อาหารเหนือ อาหารภาคเหนือ เส้นเหนือ ก๋วยเตี๋ยว ก๋วยเตี๋ยวภาคเหนือ ก๋วยเตี๋ยวเหนือ</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/porruthai/thaifood#เส้นภาคใต้ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/porruthai/thaifood#เส้นภาคใต้">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">อาหารไทย อาหารใต้ เส้นใต้ น้ำยาใต้</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง">
+        <owl:hasKey rdf:parseType="Collection">
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#TypeFood"/>
+        </owl:hasKey>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">อาหารไทย อาหารภาคกลาง</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/porruthai/thaifood#แกงภาคเหนือ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/porruthai/thaifood#แกงภาคเหนือ">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">อาหารไทย อาหารเหนือ อาหารภาคเหนือ แกงเหนือ ต้มเหนือ ต้มภาคเหนือ</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/porruthai/thaifood#แกงภาคใต้ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/porruthai/thaifood#แกงภาคใต้">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">อาหารไทย อาหารใต้ แกงใต้ ต้มใต้</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคตะวันออกเฉียงเหนือ(อีสาน) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคตะวันออกเฉียงเหนือ(อีสาน)">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">อาหารไทย อาหารอีสาน อาหารตะวันออกเฉียงเหนือ อาหารภาคอีสาน อาหารภาคตะวันออกเฉียงเหนือง ขนมไทย ขนมอีสาน  ขนมตะวันออกเฉียงเหนือ ขนมตะวันออกเฉียงเหนือ</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/porruthai/thaifood#ต้มภาคตะวันออกเฉียงเหนือ(อีสาน) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/porruthai/thaifood#ต้มภาคตะวันออกเฉียงเหนือ(อีสาน)">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">อาหารไทย อาหารอีสาน อาหารตะวันออกเฉียงเหนือ อาหารภาคอีสาน อาหารภาคตะวันออกเฉียงเหนือง แกงอีสาน ต้มอีสาน ต้มตะวันออกเฉียงเหนือ
+ต้มภาคอีสาน</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/porruthai/thaifood#ทอดภาคตะวันออกเฉียงเหนือ(อีสาน) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/porruthai/thaifood#ทอดภาคตะวันออกเฉียงเหนือ(อีสาน)">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">อาหารไทย อาหารอีสาน อาหารตะวันออกเฉียงเหนือ อาหารภาคอีสาน อาหารภาคตะวันออกเฉียงเหนือง อาหารไทยทอด อาหารอีสานทอด อาหารตะวันออกเฉียงเหนือทอด อาหารภาคอีสานทอด อาหารภาคตะวันออกเฉียงเหนืองทอด ทอดอีสาน ทอดตะวันออกเฉียงเหนือ</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/porruthai/thaifood#นึ่งภาคตะวันออกเฉียงเหนือ(อีสาน) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/porruthai/thaifood#นึ่งภาคตะวันออกเฉียงเหนือ(อีสาน)">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">อาหารไทย อาหารอีสาน อาหารตะวันออกเฉียงเหนือ อาหารภาคอีสาน อาหารภาคตะวันออกเฉียงเหนือง นึ่งอีสาน นึ่งภาคอีสาน นึ่งตะวันออกเฉียงเหนือ อบ อบอีสาน อบภาคอีสาน อบตะวันออกเฉียงเหนือ อบภาคตะวันออกเฉียงเหนือ</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/porruthai/thaifood#น้ำพริกภาคตะวันออกเฉียงเหนือ(อีสาน) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/porruthai/thaifood#น้ำพริกภาคตะวันออกเฉียงเหนือ(อีสาน)">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">อาหารไทย น้ำพริกอีสาน อาหารอีสาน  น้ำพริกภาคอีสาน น้ำพริกภาคตะวันออกเฉียงเหนือ อาหารภาคอีสาน อาหารภาคตะวันออกเฉียงเหนือ น้ำพริกตะวันออกเฉียงเหนือ อาหารไทย อาหารอีสาน อาหารตะวันออกเฉียงเหนือ อาหารภาคอีสาน อาหารภาคตะวันออกเฉียงเหนือง</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/porruthai/thaifood#ผัดภาคตะวันออกเฉียงเหนือ(อีสาน) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคตะวันออกเฉียงเหนือ(อีสาน)">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">อาหารไทย ผัดอีสาน คั่วอีสาน ผัดตะวันออกเฉียงเหนือ คั่วตะวันออกเฉียงเหนือ อาหารไทย อาหารอีสาน อาหารตะวันออกเฉียงเหนือ อาหารภาคอีสาน อาหารภาคตะวันออกเฉียงเหนือง</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/porruthai/thaifood#ยำภาคตะวันออกเฉียงเหนือ(อีสาน) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/porruthai/thaifood#ยำภาคตะวันออกเฉียงเหนือ(อีสาน)">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ตำอีสาน ยำอีสาน อาหารไทย ตำตะวันออกเฉียงเหนือ ตำ อาหารตำ อาหารไทย อาหารอีสาน อาหารตะวันออกเฉียงเหนือ อาหารภาคอีสาน อาหารภาคตะวันออกเฉียงเหนือง</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/porruthai/thaifood#ย่างภาคตะวันออกเฉียงเหนือ(อีสาน) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/porruthai/thaifood#ย่างภาคตะวันออกเฉียงเหนือ(อีสาน)">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">อาหารไทย อาหารอีสาน  อาหารตะวันออกเฉียงเหนือ อาหารย่าง ย่างอีสาน ปิ้ง ปิ้งอีสาน ปิ้งตะวันออกเฉียงเหนือ อาหารอีสานปิ้ง อาหารภาคอีสาน อาหารภาคตะวันออกเฉียงเหนือง</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/porruthai/thaifood#แกงภาคตะวันออกเฉียงเหนือ(อีสาน) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/porruthai/thaifood#แกงภาคตะวันออกเฉียงเหนือ(อีสาน)">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">อาหารไทย อาหารอีสาน แกงอีสาน แกงตะวันออกเฉียงเหนือ อาหารตะวันออกเฉียงเหนือ  อาหารตะวันออกเฉียงเหนือ อาหารภาคอีสาน อาหารภาคตะวันออกเฉียงเหนือง</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#กบทอดกระเทียมพริกไทย -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#กบทอดกระเทียมพริกไทย">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ทอดภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#กระยาสารท -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#กระยาสารท">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#กระเจี๊ยบผัดเกลือ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#กระเจี๊ยบผัดเกลือ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#กล้วยฉาบ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#กล้วยฉาบ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#กล้วยทอด -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#กล้วยทอด">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#กล้วยบวชชี -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#กล้วยบวชชี">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#กล้วยเชื่อม -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#กล้วยเชื่อม">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#กล้วยไข่เชื่อม -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#กล้วยไข่เชื่อม">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#กะปิหลน -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#กะปิหลน">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#น้ำพริกภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#กุ้งผัดพริกเผา -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#กุ้งผัดพริกเผา">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#กุ้งผัดสะตอพริกแกงใต้ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#กุ้งผัดสะตอพริกแกงใต้">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#กุ้งผัดเห็ดหอม -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#กุ้งผัดเห็ดหอม">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#กุ้งผัดไข่ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#กุ้งผัดไข่">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#กุ้งผัดไข่เค็ม -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#กุ้งผัดไข่เค็ม">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#กุ้งอบวุ่นเส้น -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#กุ้งอบวุ่นเส้น">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#นึ่งภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ก้อยไข่มดแดง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ก้อยไข่มดแดง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ยำภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ก๋วยเตี๋ยวต้มยำ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ก๋วยเตี๋ยวต้มยำ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#เส้นภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ก๋วยเตี๋ยวเรืออยุธยา -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ก๋วยเตี๋ยวเรืออยุธยา">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#เส้นภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ขนมกล้วย -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ขนมกล้วย">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ขนมกล้วยนึ่ง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ขนมกล้วยนึ่ง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ขนมกอแหละ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ขนมกอแหละ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ขนมก้านบัว -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ขนมก้านบัว">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ขนมข้าวเกรียบอ่อน -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ขนมข้าวเกรียบอ่อน">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ขนมข้าวเหนี่ยวตัดหน้างา -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ขนมข้าวเหนี่ยวตัดหน้างา">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ขนมคนที -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ขนมคนที">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ขนมครก -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ขนมครก">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ขนมฆีมันไม้ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ขนมฆีมันไม้">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ขนมจาวตาลเชื่อม -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ขนมจาวตาลเชื่อม">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ขนมจีนซาวน้ำ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ขนมจีนซาวน้ำ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#เส้นภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ขนมจีนน้ำพริก -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ขนมจีนน้ำพริก">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#เส้นภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ขนมจีนน้ำพริกกุ้งสด -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ขนมจีนน้ำพริกกุ้งสด">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#เส้นภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ขนมจีนน้ำยากะทิ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ขนมจีนน้ำยากะทิ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#เส้นภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ขนมจีนน้ำยาปลาช่อน -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ขนมจีนน้ำยาปลาช่อน">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#เส้นภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ขนมจีนน้ำยาปู -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ขนมจีนน้ำยาปู">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#เส้นภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ขนมจีนน้ำยาป่า -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ขนมจีนน้ำยาป่า">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#เส้นภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ขนมจีนน้ำเงี้ยว -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ขนมจีนน้ำเงี้ยว">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#เส้นภาคเหนือ"/>
+        <owl:disjointWith rdf:resource="urn:absolute:thaifoodd#ข้าวซอย"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ขนมจีนลูกชิ้นปลากราย -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ขนมจีนลูกชิ้นปลากราย">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#เส้นภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ขนมจู้จุน -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ขนมจู้จุน">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ขนมตาล -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ขนมตาล">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ขนมถั่วทอง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ขนมถั่วทอง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ขนมถ้วย -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ขนมถ้วย">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ขนมทองหยอด -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ขนมทองหยอด">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ขนมทองหยิบ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ขนมทองหยิบ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ขนมฝักบัว -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ขนมฝักบัว">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ขนมพอง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ขนมพอง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ขนมลา -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ขนมลา">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ขนมลิ้นหมา -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ขนมลิ้นหมา">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ขนมวง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ขนมวง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ขนมศิลาอ่อน -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ขนมศิลาอ่อน">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ขนมส่วยทะมิน -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ขนมส่วยทะมิน">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ขนมหน้าไข่ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ขนมหน้าไข่">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ขนมอาละหว่า -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ขนมอาละหว่า">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ขนมเกลือ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ขนมเกลือ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ขนมเปงม้ง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ขนมเปงม้ง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ขนมเรไร -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ขนมเรไร">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ขนมไข่ปลา -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ขนมไข่ปลา">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ขาหมูต้มผักกาดดอง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ขาหมูต้มผักกาดดอง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ต้มภาคกลาง"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ต้มภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ขาหมูต้มใบมะดัน -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ขาหมูต้มใบมะดัน">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ต้มภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ขี้หมาพองเช -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ขี้หมาพองเช">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ข้าวคลุกกะปิ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ข้าวคลุกกะปิ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ข้าวจี่ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ข้าวจี่">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ข้าวซอย -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ข้าวซอย">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#เส้นภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ข้าวต้มมัด -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ข้าวต้มมัด">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ข้าวต้มหัวงอก -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ข้าวต้มหัวงอก">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ข้าวผัดกระเฉดหมูสับ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ข้าวผัดกระเฉดหมูสับ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ข้าวผัดกุนเชียง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ข้าวผัดกุนเชียง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ข้าวผัดกุ้ง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ข้าวผัดกุ้ง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ข้าวผัดทะเล -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ข้าวผัดทะเล">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ข้าวผัดน้ำพริกเผา -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ข้าวผัดน้ำพริกเผา">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ข้าวผัดปู -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ข้าวผัดปู">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ข้าวผัดหมู -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ข้าวผัดหมู">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ข้าวผัดหมูลิ้นจี่ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ข้าวผัดหมูลิ้นจี่">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ข้าวผัดแกงเขียวหวานกุ้ง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ข้าวผัดแกงเขียวหวานกุ้ง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ข้าวผัดแกงเขียวหวานปู -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ข้าวผัดแกงเขียวหวานปู">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ข้าวผัดแกงเขียวหวานลูกชิ้นปลากราย -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ข้าวผัดแกงเขียวหวานลูกชิ้นปลากราย">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ข้าวผัดแกงเขียวหวานหมู -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ข้าวผัดแกงเขียวหวานหมู">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ข้าวผัดแกงเขียวหวานไก่ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ข้าวผัดแกงเขียวหวานไก่">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ข้าวผัดแหนม -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ข้าวผัดแหนม">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ข้าวผัดไก่ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ข้าวผัดไก่">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ข้าวยำ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ข้าวยำ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ยำภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ข้าววิตู -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ข้าววิตู">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ข้าวหนุกงา -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ข้าวหนุกงา">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ข้าวหมกไก่ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ข้าวหมกไก่">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#นึ่งภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ข้าวเกรียบปากหม้อ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ข้าวเกรียบปากหม้อ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ข้าวเกรียบว่าว -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ข้าวเกรียบว่าว">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ข้าวเหนีบวทุเรียน -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ข้าวเหนีบวทุเรียน">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ข้าวเหนียวขนุน -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ข้าวเหนียวขนุน">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ข้าวเหนียวดอกโสน -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ข้าวเหนียวดอกโสน">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ข้าวเหนียวถั่วดำ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ข้าวเหนียวถั่วดำ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ข้าวเหนียวปิ้งไส้กุ้ง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ข้าวเหนียวปิ้งไส้กุ้ง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ข้าวเหนียวมะม่วง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ข้าวเหนียวมะม่วง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ข้าวเหนียวมูน -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ข้าวเหนียวมูน">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ข้าวเหนียวสังขยา -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ข้าวเหนียวสังขยา">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ข้าวเหนียวหน้านวล -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ข้าวเหนียวหน้านวล">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ข้าวเหนียวเชงา -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ข้าวเหนียวเชงา">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ข้าวเหนียวเสือเกลือก -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ข้าวเหนียวเสือเกลือก">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ข้าวเหนียวแก้วใบเตย -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ข้าวเหนียวแก้วใบเตย">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ข้าวแคบ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ข้าวแคบ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ข้าวแช่ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ข้าวแช่">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ข้าวแต๋น -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ข้าวแต๋น">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ข้าวโป่ง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ข้าวโป่ง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ครองแครงทรงเครื่อง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ครองแครงทรงเครื่อง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#คอหมูย่าง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#คอหมูย่าง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ย่างภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#คอหมูแดดเดียวทอด -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#คอหมูแดดเดียวทอด">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ทอดภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#คะน้ากรอบ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#คะน้ากรอบ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#คะน้าน้ำมันหอย -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#คะน้าน้ำมันหอย">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#คะน้าผัดน้ำมันหอย -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#คะน้าผัดน้ำมันหอย">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#งาตำอ้อย -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#งาตำอ้อย">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#งาโบ๋ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#งาโบ๋">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ฉู่ฉี่กุ้ง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ฉู่ฉี่กุ้ง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ฉู่ฉี่ปลา -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ฉู่ฉี่ปลา">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ฉู่ฉี่หมู -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ฉู่ฉี่หมู">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ฉู่ฉี่ไก่ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ฉู่ฉี่ไก่">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ซี่โครงหมูสามรส -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ซี่โครงหมูสามรส">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ซุบหน่อไม้ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ซุบหน่อไม้">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ต้มภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ดอกขจรผัดไข่กุ้งสด -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ดอกขจรผัดไข่กุ้งสด">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ตะโก้เผือก -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ตะโก้เผือก">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ตับผัดต้นกระเทียม -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ตับผัดต้นกระเทียม">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ตับผัดพริกไทยดำ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ตับผัดพริกไทยดำ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ตับผัดหน่อไม้ฝรั่ง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ตับผัดหน่อไม้ฝรั่ง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ตับหนาว -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ตับหนาว">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ตับหมูผัดทรงเครื่อง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ตับหมูผัดทรงเครื่อง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ตับหมูผัดพริกหวาน -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ตับหมูผัดพริกหวาน">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ตำขนุน -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ตำขนุน">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ตำซั่ว -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ตำซั่ว">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ยำภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ตำถั่วฝักยาว -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ตำถั่วฝักยาว">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ยำภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ตำถั่วหมูกรอบ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ตำถั่วหมูกรอบ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ยำภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ตำยำทะเลรวม -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ตำยำทะเลรวม">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ต้มภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ตำยำเห็ดรวม -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ตำยำเห็ดรวม">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ต้มภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ตำยำไก่บ้าน -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ตำยำไก่บ้าน">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ต้มภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ต้มข่าหัวปลี -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ต้มข่าหัวปลี">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ต้มภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ต้มข่าไก่ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ต้มข่าไก่">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ต้มภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ต้มจับฉ่าย -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ต้มจับฉ่าย">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ต้มภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ต้มจืด -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ต้มจืด">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ต้มภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ต้มจืดตำลึง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ต้มจืดตำลึง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ต้มภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ต้มจืดตำลึงเต้าหู้ไข่ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ต้มจืดตำลึงเต้าหู้ไข่">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ต้มภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ต้มจืดมะระซี่โครง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ต้มจืดมะระซี่โครง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ต้มภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ต้มจืดลูกเงาะ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ต้มจืดลูกเงาะ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ต้มภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ต้มจืดเต้าหู้หมูสับสาหร่าย -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ต้มจืดเต้าหู้หมูสับสาหร่าย">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ต้มภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ต้มจืดไข่น้ำดอกขจร -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ต้มจืดไข่น้ำดอกขจร">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ต้มภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ต้มจืดไข่น้ำดอกชมจันทร์ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ต้มจืดไข่น้ำดอกชมจันทร์">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ต้มภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ต้มยำกุ้ง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ต้มยำกุ้ง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ต้มภาคกลาง"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ต้มยำขาหมู -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ต้มยำขาหมู">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ต้มภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ต้มยำทะเล -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ต้มยำทะเล">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ต้มภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ต้มยำปลากะพง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ต้มยำปลากะพง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ต้มภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ต้มยำปลาช่อน -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ต้มยำปลาช่อน">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ต้มภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ต้มยำปลาช่อนใบมะขามอ่อน -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ต้มยำปลาช่อนใบมะขามอ่อน">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ต้มภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ต้มยำปลานิล -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ต้มยำปลานิล">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ต้มภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ต้มยำปลาหมึก -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ต้มยำปลาหมึก">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ต้มภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ต้มยำหมู -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ต้มยำหมู">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ต้มภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ต้มยำเห็ด -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ต้มยำเห็ด">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ต้มภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ต้มยำไข่เจียว -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ต้มยำไข่เจียว">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ต้มภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ต้มส้มปลาหมึก -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ต้มส้มปลาหมึก">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ต้มภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ต้มเครื่องในวัว -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ต้มเครื่องในวัว">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ต้มภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ต้มเค็มฟักกับหมูสามชั้น -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ต้มเค็มฟักกับหมูสามชั้น">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ต้มภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ต้มแซ่บปลาคัง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ต้มแซ่บปลาคัง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ต้มภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ต้มแซ่บหมู -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ต้มแซ่บหมู">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ต้มภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ต้มแซ่บเนื้อวัว -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ต้มแซ่บเนื้อวัว">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ต้มภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ต้มโคล้งทะเล -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ต้มโคล้งทะเล">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ต้มภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ต้มไก่บ้าน -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ต้มไก่บ้าน">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ต้มภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ทองเอกขนมเผือก -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ทองเอกขนมเผือก">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ทอดมันปักษ์ใต้ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ทอดมันปักษ์ใต้">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ทอดภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ทะเลผัดฉ่า -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ทะเลผัดฉ่า">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ทับทิมกรอบรากบัว -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ทับทิมกรอบรากบัว">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ทุเรียนเชื่อม -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ทุเรียนเชื่อม">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#นึ่งไก่อีสาน -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#นึ่งไก่อีสาน">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#นึ่งภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#น้ำตกหมู -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#น้ำตกหมู">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#น้ำพริกกบ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#น้ำพริกกบ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#น้ำพริกภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#น้ำพริกกลางดง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#น้ำพริกกลางดง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#น้ำพริกภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#น้ำพริกกล้วยดิบ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#น้ำพริกกล้วยดิบ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#น้ำพริกภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#น้ำพริกกะปิ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#น้ำพริกกะปิ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#น้ำพริกภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#น้ำพริกกะปิกุ้งแห้ง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#น้ำพริกกะปิกุ้งแห้ง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#น้ำพริกภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#น้ำพริกกุ้งป่น -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#น้ำพริกกุ้งป่น">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#น้ำพริกภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#น้ำพริกกุ้งสด -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#น้ำพริกกุ้งสด">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#น้ำพริกภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#น้ำพริกกุ้งเสียบ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#น้ำพริกกุ้งเสียบ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#น้ำพริกภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#น้ำพริกขี้กา -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#น้ำพริกขี้กา">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#น้ำพริกภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#น้ำพริกตาแดง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#น้ำพริกตาแดง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#น้ำพริกภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#น้ำพริกปลากรอบ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#น้ำพริกปลากรอบ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#น้ำพริกภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#น้ำพริกปลาป่น -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#น้ำพริกปลาป่น">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#น้ำพริกภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#น้ำพริกปลาย่าง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#น้ำพริกปลาย่าง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#น้ำพริกภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#น้ำพริกปลาร้า -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#น้ำพริกปลาร้า">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#น้ำพริกภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#น้ำพริกปลาร้าทรงเครื่อง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#น้ำพริกปลาร้าทรงเครื่อง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#น้ำพริกภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#น้ำพริกปลาร้าผัด -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#น้ำพริกปลาร้าผัด">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#น้ำพริกภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#น้ำพริกปลาร้าสับ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#น้ำพริกปลาร้าสับ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#น้ำพริกภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#น้ำพริกปักษ์ใต้ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#น้ำพริกปักษ์ใต้">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#น้ำพริกภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#น้ำพริกปูม้า -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#น้ำพริกปูม้า">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#น้ำพริกภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#น้ำพริกผัดทูน่า -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#น้ำพริกผัดทูน่า">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#น้ำพริกภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#น้ำพริกพริกไทยสด -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#น้ำพริกพริกไทยสด">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#น้ำพริกภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#น้ำพริกมะขามเปียก -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#น้ำพริกมะขามเปียก">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#น้ำพริกภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#น้ำพริกมะเขือพวง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#น้ำพริกมะเขือพวง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#น้ำพริกภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#น้ำพริกระกำ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#น้ำพริกระกำ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#น้ำพริกภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#น้ำพริกลงเรือ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#น้ำพริกลงเรือ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#น้ำพริกภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#น้ำพริกสุโขทัย -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#น้ำพริกสุโขทัย">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#น้ำพริกภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#น้ำพริกหนุ่ม -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#น้ำพริกหนุ่ม">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#น้ำพริกภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#น้ำพริกหมูกรอบ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#น้ำพริกหมูกรอบ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#น้ำพริกภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#น้ำพริกหยำ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#น้ำพริกหยำ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#น้ำพริกภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#น้ำพริกอ่อง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#น้ำพริกอ่อง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#น้ำพริกภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#น้ำพริกอ่องปลากระป๋อง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#น้ำพริกอ่องปลากระป๋อง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#น้ำพริกภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#น้ำพริกเผากุ้ง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#น้ำพริกเผากุ้ง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#น้ำพริกภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#น้ำพริกแมงดา -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#น้ำพริกแมงดา">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#น้ำพริกภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#น้ำพริกไข่เค็ม -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#น้ำพริกไข่เค็ม">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#น้ำพริกภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#น้ำยากะทิ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#น้ำยากะทิ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#เส้นภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#น้ำยาป่า -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#น้ำยาป่า">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#เส้นภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#บัวลอยงาดำน้ำขิง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#บัวลอยงาดำน้ำขิง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#บัวลอยน้ำขิง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#บัวลอยน้ำขิง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#บัวลอยมันส้ม -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#บัวลอยมันส้ม">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#บัวลอยเบญจรงค์ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#บัวลอยเบญจรงค์">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#บัวลอยแก้ว -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#บัวลอยแก้ว">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#บ่ายมะขาม -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#บ่ายมะขาม">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ปลากะพงนึ่งมะนาว -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ปลากะพงนึ่งมะนาว">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#นึ่งภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ปลากะพงผัดฉ่า -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ปลากะพงผัดฉ่า">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ปลากะพงผัดต้มยำแห้ง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ปลากะพงผัดต้มยำแห้ง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ปลากะพงผัดสะตอ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ปลากะพงผัดสะตอ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ปลาช่อนผัดคื่นฉ่าย -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ปลาช่อนผัดคื่นฉ่าย">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ปลาดอลลี่นึ่งมะนาว -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ปลาดอลลี่นึ่งมะนาว">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#นึ่งภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ปลาดุกผัดพริกสด -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ปลาดุกผัดพริกสด">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ปลาดุกผัดพริกหยวก -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ปลาดุกผัดพริกหยวก">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ปลาดุกฟูคั่วกลิ้ง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ปลาดุกฟูคั่วกลิ้ง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ปลาดุกหมกกะปิ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ปลาดุกหมกกะปิ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#นึ่งภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ปลาทอดยำตะไคร้ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ปลาทอดยำตะไคร้">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ปลาทอดแกงชะพลูหอย -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ปลาทอดแกงชะพลูหอย">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ปลาทับทิมผัดขมิ้นขาว -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ปลาทับทิมผัดขมิ้นขาว">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ปลาทูต้มขมิ้น -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ปลาทูต้มขมิ้น">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ต้มภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ปลาทูสอดไส้ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ปลาทูสอดไส้">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ทอดภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ปลานึ่งจิ้มแจ่ว -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ปลานึ่งจิ้มแจ่ว">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#นึ่งภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ปลาบึกผัดฉ่า -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ปลาบึกผัดฉ่า">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ปลาร้าสับทรงเครื่อง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ปลาร้าสับทรงเครื่อง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#น้ำพริกภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ปลาส้ม -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ปลาส้ม">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ทอดภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#นึ่งภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ย่างภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ปลาหมึกทอดขมิ้น -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ปลาหมึกทอดขมิ้น">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ทอดภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ปลาหมึกผัดไข่เค็ม -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ปลาหมึกผัดไข่เค็ม">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ปลาหิมะผัดผงกะหรี่ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ปลาหิมะผัดผงกะหรี่">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ปลาเนื้ออ่อนทอดขมิ้น -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ปลาเนื้ออ่อนทอดขมิ้น">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ทอดภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ปากเป็ดทอด -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ปากเป็ดทอด">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ทอดภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ปีกไก่คั่วพริกเกลือ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ปีกไก่คั่วพริกเกลือ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ปูทอดกระเทียมพริกไทย -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ปูทอดกระเทียมพริกไทย">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ทอดภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ปูผัดพริก -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ปูผัดพริก">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ป่นปลาดุก -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ป่นปลาดุก">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#น้ำพริกภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ผักบุ้งผัดกะปิกุ้งสด -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ผักบุ้งผัดกะปิกุ้งสด">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ผักเหลียงต้มกะทิกุ้งสด -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ผักเหลียงต้มกะทิกุ้งสด">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ผัดกระเฉดหมูกรอบ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ผัดกระเฉดหมูกรอบ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ผัดกะเพราทะเล -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ผัดกะเพราทะเล">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ผัดกะเพราวุ้นเส้นหมูสับ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ผัดกะเพราวุ้นเส้นหมูสับ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ผัดกะเพราหมูสับ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ผัดกะเพราหมูสับ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ผัดกะเพราเป็ด -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ผัดกะเพราเป็ด">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ผัดกะเพราไก่ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ผัดกะเพราไก่">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ผัดกะเพราไข่เยี่ยวม้า -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ผัดกะเพราไข่เยี่ยวม้า">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ผัดคะน้าหมูกรอบ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ผัดคะน้าหมูกรอบ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ผัดฉ่าทะเล -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ผัดฉ่าทะเล">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ผัดฉ่าปลากะพงทอดกรอบ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ผัดฉ่าปลากะพงทอดกรอบ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ผัดดอกขจรกุ้ง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ผัดดอกขจรกุ้ง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ผัดดอกขจรหมูสับ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ผัดดอกขจรหมูสับ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ผัดดอกขจรไก่ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ผัดดอกขจรไก่">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ผัดถั่วงอกเต้าหู้หมูสับ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ผัดถั่วงอกเต้าหู้หมูสับ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ผัดผักบุ้งไฟแดง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ผัดผักบุ้งไฟแดง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ผัดผักรวมมิตร -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ผัดผักรวมมิตร">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ผัดพริกแกงหอยแครงใบยี่หร่า -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ผัดพริกแกงหอยแครงใบยี่หร่า">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ผัดพริกแกงไก่มะละกอ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ผัดพริกแกงไก่มะละกอ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ผัดพริกแกงไข่เค็ม -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ผัดพริกแกงไข่เค็ม">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ผัดมะระปลาเค็ม -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ผัดมะระปลาเค็ม">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ผัดยอดฟักแม้ว -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ผัดยอดฟักแม้ว">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ผัดยอดเหรียงน้ำมันหอย -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ผัดยอดเหรียงน้ำมันหอย">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ผัดสะตอกุ้งเปรี้ยวหวาน -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ผัดสะตอกุ้งเปรี้ยวหวาน">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ผัดสะตอปลา -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ผัดสะตอปลา">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ผัดสุกี้ทะเลแห้ง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ผัดสุกี้ทะเลแห้ง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ผัดหมี่โคราช -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ผัดหมี่โคราช">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ผัดเต้าหู้ชะอม -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ผัดเต้าหู้ชะอม">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ผัดเปรี้ยวหวานปลา -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ผัดเปรี้ยวหวานปลา">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ผัดเผ็ดปลาดุก -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ผัดเผ็ดปลาดุก">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ผัดเผ็ดหมู -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ผัดเผ็ดหมู">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ผัดเผ็ดหมูป่า -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ผัดเผ็ดหมูป่า">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ผัดเผ็ดเนื้อใบยี่หร่า -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ผัดเผ็ดเนื้อใบยี่หร่า">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ผัดแขนงหมูสับ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ผัดแขนงหมูสับ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ผัดไทยกุ้งสด -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ผัดไทยกุ้งสด">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ผัดไทยทะเล -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ผัดไทยทะเล">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#พล่ากุ้ง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#พล่ากุ้ง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ยำภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#พล่าหนวดปลาหมึก -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#พล่าหนวดปลาหมึก">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ยำภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#พวงนมหมูย่าง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#พวงนมหมูย่าง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ย่างภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#พะเเนงกุ้ง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#พะเเนงกุ้ง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#พะเเนงปลาหมึก -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#พะเเนงปลาหมึก">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#พะเเนงหมู -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#พะเเนงหมู">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#พะเเนงไก่ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#พะเเนงไก่">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#พะแนงทะเล -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#พะแนงทะเล">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#พะแนงปลาหมึกยัดใส้ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#พะแนงปลาหมึกยัดใส้">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#พะแนงเนื้อ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#พะแนงเนื้อ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ฟักทองสังขยา -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ฟักทองสังขยา">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#มะขามบ่ายข้าว -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#มะขามบ่ายข้าว">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#มะพร้าวกะทิลอยแก้ว -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#มะพร้าวกะทิลอยแก้ว">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#มะพร้าวเชื่อม -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#มะพร้าวเชื่อม">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#มะพร้าวแก้ว -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#มะพร้าวแก้ว">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#มะระผัดไข่ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#มะระผัดไข่">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#มะระผัดไข่เค็ม -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#มะระผัดไข่เค็ม">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#มะระอบไอน้ำ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#มะระอบไอน้ำ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#นึ่งภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#มะเขือม่วงผัดกะปิ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#มะเขือม่วงผัดกะปิ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#มันเชื่อม -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#มันเชื่อม">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#มัสมั่น -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#มัสมั่น">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ยำขนมจีน -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ยำขนมจีน">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ยำภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ยำจิ้นไก่ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ยำจิ้นไก่">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ต้มภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ยำดอกขจรกุ้งสด -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ยำดอกขจรกุ้งสด">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ยำภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ยำดอกอัญชันหมูสับ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ยำดอกอัญชันหมูสับ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ยำภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ยำถั่วพลู -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ยำถั่วพลู">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ยำภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ยำปลาดุกฟู -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ยำปลาดุกฟู">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ยำภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ยำปลาทูนึ่ง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ยำปลาทูนึ่ง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ยำภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ยำผักกูด -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ยำผักกูด">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ยำภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ยำมะม่วง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ยำมะม่วง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ยำภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ยำวุ้นเส้น -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ยำวุ้นเส้น">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ยำภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ยำสะนัด -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ยำสะนัด">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ยำภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ยำหมูยอ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ยำหมูยอ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ยำภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ยำหูหมูแก้ว -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ยำหูหมูแก้ว">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ยำภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ยำเห็ดรวมเจ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ยำเห็ดรวมเจ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ยำภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ยำไก่ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ยำไก่">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ต้มภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ยำไข่จะละเม็ด -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ยำไข่จะละเม็ด">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ยำภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ยำไข่ดาว -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ยำไข่ดาว">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ยำภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ยำไข่เจียวน้ำพริกเผา -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ยำไข่เจียวน้ำพริกเผา">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ยำภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ยำไหลบัวกุ้งสด -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ยำไหลบัวกุ้งสด">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ยำภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ลาบขม -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ลาบขม">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ลาบปลาบึก -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ลาบปลาบึก">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ลาบปลาหมึก -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ลาบปลาหมึก">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ลาบพวงไข่ไก่ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ลาบพวงไข่ไก่">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ลาบหมู -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ลาบหมู">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ลาบเนื้อทอด -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ลาบเนื้อทอด">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ลาบเป็ด -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ลาบเป็ด">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ลาบไก่เส้นบุก -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ลาบไก่เส้นบุก">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ลูกชิ้นปลาผัดเผ็ด -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ลูกชิ้นปลาผัดเผ็ด">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ลูกชิ้นผัดฉ่า -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ลูกชิ้นผัดฉ่า">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#สะเดาทรงเครื่อง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#สะเดาทรงเครื่อง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ยำภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ส้มฉุน -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ส้มฉุน">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ส้มตำ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ส้มตำ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ยำภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ส้มตำกรอบ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ส้มตำกรอบ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ยำภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ส้มตำถั่วฝักยาว -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ส้มตำถั่วฝักยาว">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ยำภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ส้มตำเต้าหู้กรอบ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ส้มตำเต้าหู้กรอบ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ยำภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ส้มตำไทย -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ส้มตำไทย">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ยำภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ส้มตำไหลบัว -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ส้มตำไหลบัว">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ยำภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#หมกปลาซิว -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#หมกปลาซิว">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#นึ่งภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#หมกหน่อไม้ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#หมกหน่อไม้">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#นึ่งภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#หมูกรอบผัดกุยช่าย -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#หมูกรอบผัดกุยช่าย">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#หมูชะมวง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#หมูชะมวง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#หมูต้มระกำ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#หมูต้มระกำ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ต้มภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#หมูต้มใบชะมวง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#หมูต้มใบชะมวง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ต้มภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#หมูปิ้ง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#หมูปิ้ง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ย่างภาคกลาง"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#หมูผัดแกงเขียวหวาน -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#หมูผัดแกงเขียวหวาน">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#หมูผัดไข่ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#หมูผัดไข่">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#หมูมะนาว -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#หมูมะนาว">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ยำภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#หมูย่างดอกดาหลา -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#หมูย่างดอกดาหลา">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ย่างภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#หมูย่างหมักตะไคร้ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#หมูย่างหมักตะไคร้">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#หมูสามชั้นผัดกะปิ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#หมูสามชั้นผัดกะปิ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#หมูหนาว -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#หมูหนาว">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#หอยขมผัดฉ่า -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#หอยขมผัดฉ่า">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#หอยหวานผัดพริกแห้ง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#หอยหวานผัดพริกแห้ง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#หอยแมลงภู่อบสมุนไพร -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#หอยแมลงภู่อบสมุนไพร">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#นึ่งภาคกลาง"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#นึ่งภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ห่อหมกทะเล -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ห่อหมกทะเล">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#นึ่งภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ห่อหมกปลาหมึก -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ห่อหมกปลาหมึก">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#นึ่งภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ห่อหมกมะพร้าวอ่อน -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ห่อหมกมะพร้าวอ่อน">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#นึ่งภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#อกไก่ย่างตะไคร้ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#อกไก่ย่างตะไคร้">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ย่างภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#อ่อมปลาดุก -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#อ่อมปลาดุก">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#อ่อมหน่อไม้ใบย่านาง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#อ่อมหน่อไม้ใบย่านาง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#เข้าหนมซะละอ่อน -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#เข้าหนมซะละอ่อน">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#เต้าส่วน -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#เต้าส่วน">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#เต้าหู้ผัดชะอม -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#เต้าหู้ผัดชะอม">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#เต้าฮวยน้ำขิง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#เต้าฮวยน้ำขิง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#เนื้อคั่วกลิ้ง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#เนื้อคั่วกลิ้ง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#เนื้อย่างจิ้มแจ่ว -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#เนื้อย่างจิ้มแจ่ว">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ย่างภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#เนื้อสวรรค์ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#เนื้อสวรรค์">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ทอดภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#เมี่ยงคำหมูหวาน -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#เมี่ยงคำหมูหวาน">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ยำภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#เมี่ยงตะไคร้ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#เมี่ยงตะไคร้">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ยำภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#เส้นจันทร์ผัดไทยกุ้งสด -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#เส้นจันทร์ผัดไทยกุ้งสด">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงกระด้าง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงกระด้าง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงกะทิสายบัวปลาทู -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงกะทิสายบัวปลาทู">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงขนุน -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงขนุน">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงขนุนใส่ซี่โครงหมู -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงขนุนใส่ซี่โครงหมู">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงขี้เหล็ก -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงขี้เหล็ก">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงคั่ว -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงคั่ว">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงคั่วกะทิหอยแครง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงคั่วกะทิหอยแครง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงคั่วพริกซี่โครงหมูอ่อน -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงคั่วพริกซี่โครงหมูอ่อน">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงคั่วฟักไก่ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงคั่วฟักไก่">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงคั่วแห้งกุ้งมะพร้าวอ่อนใบชะพลู -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงคั่วแห้งกุ้งมะพร้าวอ่อนใบชะพลู">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงจืดตำลึง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงจืดตำลึง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงจืดมะระยัดไส้หมูสับ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงจืดมะระยัดไส้หมูสับ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงจืดลูกเงาะ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงจืดลูกเงาะ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงจืดสับปะรดกระดูกอ่อน -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงจืดสับปะรดกระดูกอ่อน">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงจืดไข่น้ำดอกขจร -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงจืดไข่น้ำดอกขจร">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงชักส้มดอกมะขามอ่อน -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงชักส้มดอกมะขามอ่อน">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงตูน -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงตูน">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงตูนปลา -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงตูนปลา">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงนพเก้า -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงนพเก้า">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงบวดฟักทอง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงบวดฟักทอง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงบวดมันม่วง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงบวดมันม่วง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงบอน -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงบอน">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงปลาใส่ตูน -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงปลาใส่ตูน">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงป่ากุ้งสับ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงป่ากุ้งสับ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงป่าปลากะพง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงป่าปลากะพง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงป่าปลาเห็ดโคน -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงป่าปลาเห็ดโคน">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงป่าลูกชิ้นปลากราย -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงป่าลูกชิ้นปลากราย">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงป่าหมู -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงป่าหมู">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงผักปั๋ง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงผักปั๋ง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงผักปั๋งใส่แหนม -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงผักปั๋งใส่แหนม">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงผักหวาน -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงผักหวาน">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงผักหวานป่าใส่ไข่มดแดง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงผักหวานป่าใส่ไข่มดแดง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงผักหวานใส่ปลาย่าง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงผักหวานใส่ปลาย่าง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงผักหวานใส่ไข่มดแดง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงผักหวานใส่ไข่มดแดง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงมัสมั่นกุ้ง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงมัสมั่นกุ้ง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงมัสมั่นปลาหมึก -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงมัสมั่นปลาหมึก">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงมัสมั่นหมู -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงมัสมั่นหมู">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงมัสมั่นไก่ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงมัสมั่นไก่">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงรัญจวน -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงรัญจวน">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงรัญจวนปลา -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงรัญจวนปลา">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงรัญจวนหมู -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงรัญจวนหมู">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงรัญจวนหมูตุ๋น -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงรัญจวนหมูตุ๋น">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงรัญจวนเนื้อตุ๋น -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงรัญจวนเนื้อตุ๋น">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงลาว -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงลาว">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงส้มชะอมกุ้ง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงส้มชะอมกุ้ง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงส้มชะอมกุ้งสด -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงส้มชะอมกุ้งสด">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงส้มชะอมทอด -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงส้มชะอมทอด">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงส้มชะอมไข่ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงส้มชะอมไข่">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงส้มต้นอ่อนทานตะวัน -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงส้มต้นอ่อนทานตะวัน">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงส้มปลากดหน่อไม้ดอง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงส้มปลากดหน่อไม้ดอง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงส้มปลาช่อนผักรวม -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงส้มปลาช่อนผักรวม">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงส้มปลาโจก -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงส้มปลาโจก">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงส้มผักรวม -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงส้มผักรวม">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงส้มผักรวมปลาทอด -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงส้มผักรวมปลาทอด">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงหน่อไม้ใบย่านาง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงหน่อไม้ใบย่านาง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงหมูสับรากบัว -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงหมูสับรากบัว">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงหยวกกล้วย -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงหยวกกล้วย">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงหอยแครงใบชะพลู -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงหอยแครงใบชะพลู">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงอ่อมซี่โครงหมู -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงอ่อมซี่โครงหมู">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงอ่อมหมู -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงอ่อมหมู">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคเหนือ"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงฮังเล -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงฮังเล">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงเขียวหวาน -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงเขียวหวาน">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงเขียวหวานทะเล -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงเขียวหวานทะเล">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงเขียวหวานลูกชิ้นปลา -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงเขียวหวานลูกชิ้นปลา">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงเขียวหวานลูกชิ้นปลากราย -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงเขียวหวานลูกชิ้นปลากราย">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงเขียวหวานหมู -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงเขียวหวานหมู">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงเขียวหวานเนื้อ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงเขียวหวานเนื้อ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงเขียวหวานไก่ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงเขียวหวานไก่">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงเทโพหมู -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงเทโพหมู">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงเนื้อใส่ฝักทอง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงเนื้อใส่ฝักทอง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงเผ็ดกล้วยดิบ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงเผ็ดกล้วยดิบ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงเผ็ดกุ้ง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงเผ็ดกุ้ง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงเผ็ดปลา -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงเผ็ดปลา">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงเผ็ดหมู -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงเผ็ดหมู">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงเผ็ดเป็ดย่าง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงเผ็ดเป็ดย่าง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงเผ็ดไก่ฟักทอง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงเผ็ดไก่ฟักทอง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงเลียง_3_เห็ด -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงเลียง_3_เห็ด">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงเลียงกะทิสด -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงเลียงกะทิสด">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงเลียงกุ้งสด -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงเลียงกุ้งสด">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงเลียงนพเก้า -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงเลียงนพเก้า">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงเลียงยอดอ่อนทานตะวัน -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงเลียงยอดอ่อนทานตะวัน">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงเหลือง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงเหลือง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงเหลืองปลากระพง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงเหลืองปลากระพง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงเหลืองปลาอินทรีย์ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงเหลืองปลาอินทรีย์">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงเหลืองไหลบัวกุ้งสด -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงเหลืองไหลบัวกุ้งสด">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงเห็ด -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงเห็ด">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงเห็ดฟางใส่ผักหวาน -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงเห็ดฟางใส่ผักหวาน">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงเห็ดเผาะใส่ผักหวาน -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงเห็ดเผาะใส่ผักหวาน">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงแค -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงแค">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงแคไก่ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงแคไก่">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงโฮะ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงโฮะ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงไก่ใส่ฟักหม่น -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงไก่ใส่ฟักหม่น">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงไก่ใส่หน่อไม้ส้ม -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงไก่ใส่หน่อไม้ส้ม">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงไข่มดแดงใส่ผักหวาน -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงไข่มดแดงใส่ผักหวาน">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงไข่แมงดาสับปะรด -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงไข่แมงดาสับปะรด">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงไข่ไล่ทุ่ง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงไข่ไล่ทุ่ง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แกงไตปลา -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แกงไตปลา">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แปโหย่ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แปโหย่">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แสร้งว่ากุ้ง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แสร้งว่ากุ้ง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ยำภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แหนมคลุก -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แหนมคลุก">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ยำภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#แอบไก่ดำ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#แอบไก่ดำ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#นึ่งภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ใบเตยสังขยา -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ใบเตยสังขยา">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ขนมไทยภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ใบเหลียงต้มกะทิ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ใบเหลียงต้มกะทิ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ต้มภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ไก่กะปิ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ไก่กะปิ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ไก่คั่วกะเทียมพริกไทย -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ไก่คั่วกะเทียมพริกไทย">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ไก่ต้มระกำ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ไก่ต้มระกำ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ต้มภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ไก่ทอดหาดใหญ่ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ไก่ทอดหาดใหญ่">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ทอดภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ไก่นึ่งซีอิ้ว -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ไก่นึ่งซีอิ้ว">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#นึ่งภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ไก่ผัดขิง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ไก่ผัดขิง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ไก่ผัดเปรี้ยวหวาน -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ไก่ผัดเปรี้ยวหวาน">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ไก่ผัดเม็ดมะม่วงหิมพานต์ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ไก่ผัดเม็ดมะม่วงหิมพานต์">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ไก่ผัดเส้นบุกต้มยำแห้ง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ไก่ผัดเส้นบุกต้มยำแห้ง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ไก่ย่าง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ไก่ย่าง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ย่างภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ไก่ย่างวิเชียรบุรี -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ไก่ย่างวิเชียรบุรี">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ย่างภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ไก่ย่างเขาสวนกวาง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ไก่ย่างเขาสวนกวาง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ย่างภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ไก่รวนปลาร้า -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ไก่รวนปลาร้า">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ไข่ขมิ้น -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ไข่ขมิ้น">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ไข่คั่วกุ้ง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ไข่คั่วกุ้ง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ไข่ตุ๋นนมสด -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ไข่ตุ๋นนมสด">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#นึ่งภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ไข่ผัดเห็ดหอมเต้าหู้ไข่ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ไข่ผัดเห็ดหอมเต้าหู้ไข่">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ไข่พะโล้กระดูกอ่อน -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ไข่พะโล้กระดูกอ่อน">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ไข่พะโล้ยางมะตูม -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ไข่พะโล้ยางมะตูม">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ไข่พะโล้หมู -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ไข่พะโล้หมู">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ไข่พะโล้ไก่ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ไข่พะโล้ไก่">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#แกงภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ไข่เจียวใส่ไข่มดแดง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ไข่เจียวใส่ไข่มดแดง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ทอดภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ไชโป้วผัดไข่ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ไชโป้วผัดไข่">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคกลาง"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ไส้กรอกอีสาน -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ไส้กรอกอีสาน">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ย่างภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ไส้อั่ว -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ไส้อั่ว">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ย่างภาคเหนือ"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ไส้อ่อนทอดกระเทียมพริกไทย -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ไส้อ่อนทอดกระเทียมพริกไทย">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ทอดภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ไส้อ่อนผัดพริกเกลือ -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ไส้อ่อนผัดพริกเกลือ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคตะวันออกเฉียงเหนือ(อีสาน)"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:thaifoodd#ไหลบัวผัดกุ้ง -->
+
+    <owl:Class rdf:about="urn:absolute:thaifoodd#ไหลบัวผัดกุ้ง">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/porruthai/thaifood#ผัดภาคใต้"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/porruthai/thaifood#ภาคอีสาน -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/porruthai/thaifood#ภาคอีสาน"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#กบทอดกระเทียมพริกไทย"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#คอหมูแดดเดียวทอด"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ปลาส้ม"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ปากเป็ดทอด"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#เนื้อสวรรค์"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ไข่เจียวใส่ไข่มดแดง"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ไส้อ่อนทอดกระเทียมพริกไทย"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#กระยาสารท"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ข้าวจี่"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ข้าวต้มมัด"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ข้าวโป่ง"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#บ่ายมะขาม"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#มะขามบ่ายข้าว"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#กะปิหลน"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#น้ำพริกกลางดง"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#น้ำพริกกล้วยดิบ"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#น้ำพริกกะปิ"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#น้ำพริกกะปิกุ้งแห้ง"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#น้ำพริกกุ้งป่น"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#น้ำพริกกุ้งสด"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#น้ำพริกขี้กา"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#น้ำพริกปลากรอบ"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#น้ำพริกปลาป่น"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#น้ำพริกปลาย่าง"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#น้ำพริกปลาร้าทรงเครื่อง"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#น้ำพริกปูม้า"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#น้ำพริกผัดทูน่า"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#น้ำพริกพริกไทยสด"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#น้ำพริกมะขามเปียก"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#น้ำพริกมะเขือพวง"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#น้ำพริกลงเรือ"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#น้ำพริกสุโขทัย"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#น้ำพริกหมูกรอบ"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#น้ำพริกไข่เค็ม"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#กุ้งผัดสะตอพริกแกงใต้"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ข้าวผัดปู"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ฉู่ฉี่กุ้ง"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ฉู่ฉี่ปลา"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ฉู่ฉี่หมู"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ฉู่ฉี่ไก่"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ปลากะพงผัดสะตอ"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ปลาหมึกผัดไข่เค็ม"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ปูผัดพริก"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ผัดฉ่าทะเล"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ผัดพริกแกงหอยแครงใบยี่หร่า"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ผัดยอดเหรียงน้ำมันหอย"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ผัดสะตอกุ้งเปรี้ยวหวาน"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ผัดสะตอปลา"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ผัดสุกี้ทะเลแห้ง"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ผัดเผ็ดเนื้อใบยี่หร่า"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#หมูสามชั้นผัดกะปิ"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#หอยหวานผัดพริกแห้ง"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#เนื้อคั่วกลิ้ง"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงคั่วกะทิหอยแครง"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงคั่วพริกซี่โครงหมูอ่อน"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงคั่วแห้งกุ้งมะพร้าวอ่อนใบชะพลู"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ไก่กะปิ"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ไข่ขมิ้น"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ไหลบัวผัดกุ้ง"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#กุ้งผัดสะตอพริกแกงใต้"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ข้าวผัดปู"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ปลากะพงผัดสะตอ"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ปลาหมึกผัดไข่เค็ม"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ปูผัดพริก"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ผัดฉ่าทะเล"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ผัดพริกแกงหอยแครงใบยี่หร่า"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ผัดยอดเหรียงน้ำมันหอย"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ผัดสะตอกุ้งเปรี้ยวหวาน"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ผัดสะตอปลา"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ผัดสุกี้ทะเลแห้ง"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ผัดเผ็ดเนื้อใบยี่หร่า"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#หมูสามชั้นผัดกะปิ"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#หอยหวานผัดพริกแห้ง"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#เนื้อคั่วกลิ้ง"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงคั่วกะทิหอยแครง"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงคั่วพริกซี่โครงหมูอ่อน"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงคั่วแห้งกุ้งมะพร้าวอ่อนใบชะพลู"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ไก่กะปิ"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ไข่ขมิ้น"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ไหลบัวผัดกุ้ง"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#กุ้งอบวุ่นเส้น"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ปลากะพงนึ่งมะนาว"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ปลาดอลลี่นึ่งมะนาว"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#มะระอบไอน้ำ"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#หอยแมลงภู่อบสมุนไพร"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ห่อหมกทะเล"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ห่อหมกปลาหมึก"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ห่อหมกมะพร้าวอ่อน"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ไก่นึ่งซีอิ้ว"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ไข่ตุ๋นนมสด"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ก้อยไข่มดแดง"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ตำซั่ว"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ตำถั่วฝักยาว"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ตำถั่วหมูกรอบ"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#พล่ากุ้ง"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#พล่าหนวดปลาหมึก"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ยำขนมจีน"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ยำมะม่วง"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ยำหมูยอ"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ส้มตำ"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ส้มตำถั่วฝักยาว"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ส้มตำเต้าหู้กรอบ"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แหนมคลุก"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ก๋วยเตี๋ยวต้มยำ"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ก๋วยเตี๋ยวเรืออยุธยา"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ขนมจีนซาวน้ำ"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ขนมจีนน้ำพริก"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#น้ำยากะทิ"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#น้ำยาป่า"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ขนมจีนน้ำพริกกุ้งสด"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ขนมจีนน้ำยากะทิ"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ขนมจีนน้ำยาปู"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ขนมจีนน้ำยาป่า"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ขนมลิ้นหมา"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ขนมวง"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ขนมส่วยทะมิน"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ขนมอาละหว่า"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ขนมเกลือ"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ขนมเปงม้ง"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ข้าววิตู"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ข้าวหนุกงา"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ข้าวเกรียบว่าว"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ข้าวแคบ"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ข้าวแต๋น"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#งาตำอ้อย"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#งาโบ๋"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#เข้าหนมซะละอ่อน"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แปโหย่"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ขาหมูต้มผักกาดดอง"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ยำจิ้นไก่"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ยำไก่"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ข้าวผัดหมูลิ้นจี่"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ตำขนุน"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ผัดยอดฟักแม้ว"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ข้าวหมกไก่"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ปลาดุกหมกกะปิ"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#หอยแมลงภู่อบสมุนไพร"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#คอหมูย่าง"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ปลาส้ม"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#พวงนมหมูย่าง"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#อกไก่ย่างตะไคร้"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#เนื้อย่างจิ้มแจ่ว"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ไก่ย่าง"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ไก่ย่างเขาสวนกวาง"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ไส้กรอกอีสาน"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ซุบหน่อไม้"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ต้มเครื่องในวัว"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ต้มแซ่บปลาคัง"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ต้มแซ่บหมู"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ต้มแซ่บเนื้อวัว"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ต้มไก่บ้าน"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ตับหนาว"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#น้ำตกหมู"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ปลาบึกผัดฉ่า"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ผัดหมี่โคราช"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ลาบขม"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ลาบปลาบึก"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ลาบปลาหมึก"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ลาบพวงไข่ไก่"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ลาบหมู"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ลาบเนื้อทอด"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ลาบเป็ด"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ลาบไก่เส้นบุก"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#หมูปิ้ง"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#หมูย่างหมักตะไคร้"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ไก่รวนปลาร้า"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ไส้อ่อนผัดพริกเกลือ"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#นึ่งไก่อีสาน"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ปลานึ่งจิ้มแจ่ว"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ปลาส้ม"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#หมกปลาซิว"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#หมกหน่อไม้"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#น้ำพริกกบ"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#น้ำพริกปลาร้า"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#น้ำพริกปลาร้าผัด"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#น้ำพริกปลาร้าสับ"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ปลาร้าสับทรงเครื่อง"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ป่นปลาดุก"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#น้ำพริกกุ้งเสียบ"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#น้ำพริกปักษ์ใต้"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#น้ำพริกระกำ"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#น้ำพริกหยำ"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#น้ำพริกเผากุ้ง"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#น้ำพริกตาแดง"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#น้ำพริกหนุ่ม"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#น้ำพริกอ่อง"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#น้ำพริกอ่องปลากระป๋อง"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#น้ำพริกแมงดา"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#พะแนงเนื้อ"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#มัสมั่น"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงกะทิสายบัวปลาทู"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงขี้เหล็ก"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงคั่ว"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงจืดสับปะรดกระดูกอ่อน"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงชักส้มดอกมะขามอ่อน"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงบวดฟักทอง"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงบวดมันม่วง"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงป่าหมู"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงรัญจวน"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงส้มชะอมไข่"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงส้มต้นอ่อนทานตะวัน"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงส้มปลากดหน่อไม้ดอง"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงเขียวหวาน"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงเทโพหมู"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงเผ็ดกล้วยดิบ"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงเผ็ดเป็ดย่าง"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงเผ็ดไก่ฟักทอง"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงเลียงกะทิสด"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงเลียงกุ้งสด"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงไข่ไล่ทุ่ง"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ยำดอกขจรกุ้งสด"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ยำดอกอัญชันหมูสับ"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ยำถั่วพลู"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ยำปลาดุกฟู"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ยำปลาทูนึ่ง"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ยำผักกูด"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ยำหูหมูแก้ว"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ยำเห็ดรวมเจ"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ยำไข่จะละเม็ด"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ยำไข่ดาว"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ยำไข่เจียวน้ำพริกเผา"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ยำไหลบัวกุ้งสด"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#สะเดาทรงเครื่อง"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ส้มตำกรอบ"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ส้มตำไทย"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ส้มตำไหลบัว"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#หมูมะนาว"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#เมี่ยงตะไคร้"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แสร้งว่ากุ้ง"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#หมูปิ้ง"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#หมูย่างดอกดาหลา"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#ไก่ย่างวิเชียรบุรี"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#หมูหนาว"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงกระด้าง"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงขนุน"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงขนุนใส่ซี่โครงหมู"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงคั่วฟักไก่"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงตูน"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงตูนปลา"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงบอน"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงปลาใส่ตูน"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงผักปั๋ง"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงผักปั๋งใส่แหนม"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงผักหวาน"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงผักหวานใส่ปลาย่าง"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงหยวกกล้วย"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงอ่อมซี่โครงหมู"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงอ่อมหมู"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงฮังเล"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงแค"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงแคไก่"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงโฮะ"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงไก่ใส่ฟักหม่น"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#อ่อมปลาดุก"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#อ่อมหน่อไม้ใบย่านาง"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงขี้เหล็ก"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงผักหวานป่าใส่ไข่มดแดง"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงผักหวานใส่ไข่มดแดง"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงลาว"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงส้มปลาโจก"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงหน่อไม้ใบย่านาง"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงอ่อมหมู"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงเนื้อใส่ฝักทอง"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงเห็ด"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงเห็ดฟางใส่ผักหวาน"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงเห็ดเผาะใส่ผักหวาน"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงไก่ใส่หน่อไม้ส้ม"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงไข่มดแดงใส่ผักหวาน"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงมัสมั่นไก่"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงส้มปลาช่อนผักรวม"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงหอยแครงใบชะพลู"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงไข่แมงดาสับปะรด"/>
+            <rdf:Description rdf:about="urn:absolute:thaifoodd#แกงไตปลา"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

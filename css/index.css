@@ -1,0 +1,75 @@
+@import 'https://fonts.googleapis.com/css?family=Kanit|Prompt';
+
+body {
+    margin: 0;
+    background-color: #f0f0f0;
+    padding-bottom: 20px;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+.container {
+    margin: 0;
+    width: 100%;
+
+}
+
+.item {
+    width: 100%;
+}
+
+.carousel-indicators {
+    color: #000;
+}
+
+input {
+    text-align:left;
+    width: 62%;
+    height: 35px;
+    margin-top: 30px;
+}
+
+button {
+    width: 8%;
+    height: 35px;
+}
+.imgss {
+    background-color: #ffffff;
+    height: 200px;
+    width: 150px;
+    margin: 25px;
+    margin-top: 10px;
+    -webkit-box-shadow: 0 12px 34px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 12px 34px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 12px 34px rgba(0, 0, 0, 0.12);
+}
+
+.imgres {
+    height: 100%;
+    border: 1px solid #000000;
+    -webkit-box-shadow: 0 12px 34px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 12px 34px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 12px 34px rgba(0, 0, 0, 0.12);
+
+}
+.imgfav {
+    background-color: #b1b1b1;
+    height: 130px;
+    width: 120px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+
+p {
+    font-size: 10px;
+    margin: 0px;
+    color: #686868;
+}
+
+.photo {
+    height: 450px;
+}
+
+iframe {
+    height: 400px;
+}

@@ -1,0 +1,34 @@
+@prefix foaf:       <http://xmlns.com/foaf/0.1/> .
+@prefix rdf:        <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+[] rdf:subject _:gff ;
+  rdf:predicate rdf:type ;
+  rdf:Object1 foaf:Person .
+
+[] rdf:subject _:gff ;
+  rdf:predicate foaf:name ;
+  rdf:Object1 "Alice" .
+
+[] rdf:subject _:gff ;
+  rdf:predicate foaf:mbox ;
+  rdf:Object1 <mailto:alice@work> .
+
+[] rdf:subject _:gff ;
+  rdf:predicate foaf:knows ;
+  rdf:Object1 _:g2a .
+
+[] rdf:subject _:g2a ;
+  rdf:predicate rdf:type ;
+  rdf:Object1 foaf:Person .
+
+[] rdf:subject _:g2a ;
+  rdf:predicate foaf:name ;
+  rdf:Object1 "Bob" .
+
+[] rdf:subject _:g2a ;
+  rdf:predicate foaf:knows ;
+  rdf:Object1 _:gff .
+
+[] rdf:subject _:g2a ;
+  rdf:predicate foaf:mbox ;
+  rdf:Object1 <mailto:bob@home> .

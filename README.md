@@ -1,4 +1,4 @@
-# projectt
+# project
 # ระบบค้นหาร้านอาหารไทย ด้วยออนโทโลยี
  Run บน localhost
  
